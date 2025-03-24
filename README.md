@@ -50,3 +50,47 @@ streamlit run app.py
 ```
 
 Then open your browser and navigate to `http://localhost:8501`.
+
+## Project Structure
+
+```
+clinical-chatbot/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── app.py
+├── config.py
+├── src/
+│   ├── __init__.py
+│   ├── databricks_client.py
+│   ├── chat_interface.py
+│   └── utils.py
+└── tests/
+    ├── __init__.py
+    ├── test_databricks_client.py
+    └── test_chat_interface.py
+```
+
+## Development
+
+### Running Tests
+
+```bash
+pytest
+```
+
+### Adding New Features
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Disclaimer
+
+This application is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
